@@ -1,3 +1,8 @@
+<div>
+  <label>Productos más baratos</label>
+  <input (change)="filtrarBaratos()" type="checkbox">
+</div>
+
 <div class="row row-cols-6">
 
   <div *ngFor="let art of getArticulos()" class="card" style="width: 18rem;">
